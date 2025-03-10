@@ -20,12 +20,14 @@
         <Label
            Text="Resultado :"
            Margin="20"
-           FontSize="Body"
-        />
+           FontSize="Body"/>
         
         <Entry
+           x:Name="txtResultado"
            IsReadOnly="True"
-            Margin="20"/>
+           Margin="20"
+            />
+        
         <Button
             Text="CALCULAR"
             Margin="20"
