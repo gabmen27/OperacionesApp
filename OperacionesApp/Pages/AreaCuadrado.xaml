@@ -18,7 +18,8 @@
             Placeholder="Ingrese el Dato Aqui"
             Margin="20"
             Background="White"
-            Keyboard="Numeric"/>
+            Keyboard="Numeric"
+            x:Name="txtLado"/>
         <Label
             Text="El resultado es:"
             Margin="20"
