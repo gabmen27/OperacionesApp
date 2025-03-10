@@ -28,6 +28,8 @@
             Margin="20"/>
         <Button
             Text="CALCULAR"
-            Margin="20"/>
+            Margin="20"
+            x:Name="CalcularAreaCirculo"
+            Clicked="CalcularAreaCirculo_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

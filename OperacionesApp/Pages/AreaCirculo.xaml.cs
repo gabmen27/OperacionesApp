@@ -6,4 +6,9 @@ public partial class AreaCirculo : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void CalcularAreaCirculo_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
