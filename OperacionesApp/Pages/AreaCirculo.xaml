@@ -31,5 +31,13 @@
             Margin="20"
             x:Name="CalcularAreaCirculo"
             Clicked="CalcularAreaCirculo_Clicked"/>
+        
+        <Button
+        Text="LIMPIAR"
+        Margin="20"
+        x:Name="CirculoLimpiarBtn"
+        Clicked="CirculoLimpiarBtn_Clicked"
+        Background="Red"/>
+        
     </VerticalStackLayout>
 </ContentPage>
