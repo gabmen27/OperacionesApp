@@ -6,4 +6,14 @@ public partial class AreaRectangulo : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void CalcularAreaRectangulo_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void LimpiarRectangulo_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
