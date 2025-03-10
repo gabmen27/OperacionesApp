@@ -2,11 +2,45 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OperacionesApp.Pages.AreaCuadrado"
-             Title="AreaCuadrado">
-    <VerticalStackLayout>
+             Title="AreaCuadrado"
+             BackgroundColor="LightSteelBlue">
+    <VerticalStackLayout Padding="5" Margin="5">
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Hola, Calculemos el area de un cuadrado!"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            FontAttributes="Bold"/>
+        <Label
+            Text="Ingresa la longitud de un lado del cuadrado(cm):"
+            Margin="20"
+            FontSize="Medium"/>
+        <Entry
+            Placeholder="Ingrese el Dato Aqui"
+            Margin="20"
+            Background="White"
+            Keyboard="Numeric"/>
+        <Label
+            Text="El resultado es:"
+            Margin="20"
+            FontSize="Body"/>
+        <Entry
+            x:Name="txtResultado"
+            IsReadOnly="True"
+            BackgroundColor="White"
+            Margin="20"
+            />
+        <Button
+         Text="CALCULAR"
+         Margin="20"
+         x:Name="CalcularAreCuadrado"
+         Clicked="CalcularAreCuadrado_Clicked"/>
+
+        <Button
+            Text="LIMPIAR"
+            Margin="20"
+            x:Name="LimpiarCalculoCuadrado"
+            Clicked="LimpiarCalculoCuadrado_Clicked"
+            Background="Red"/>
+        
     </VerticalStackLayout>
 </ContentPage>

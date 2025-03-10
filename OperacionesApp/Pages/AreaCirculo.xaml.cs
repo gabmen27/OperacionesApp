@@ -34,6 +34,6 @@ public partial class AreaCirculo : ContentPage
     }
 
 	private void Alerta(string mensaje) {
-		DisplayAlert("Advertensia", mensaje, "Aceoptar");
+		DisplayAlert("Advertensia", mensaje, "Aceptar");
 	}
 }

@@ -6,4 +6,14 @@ public partial class AreaCuadrado : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void CalcularAreCuadrado_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void LimpiarCalculoCuadrado_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

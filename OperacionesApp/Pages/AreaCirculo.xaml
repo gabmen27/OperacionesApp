@@ -2,21 +2,25 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OperacionesApp.Pages.AreaCirculo"
-             Title="AreaCirculo">
+             Title="AreaCirculo"
+             BackgroundColor="LightSteelBlue">
     <VerticalStackLayout Padding="5" Margin="5">
         <Label 
             Text="Calculemos el area del circulo!"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            FontAttributes="Bold"/>
         <Label
             Text="Ingrese el Radio del cirulo"
             Margin="20"
-            FontSize="Large"/>
+            FontSize="Large"
+            />
         <Entry
             Margin="20"
             Placeholder="Ingrese el Dato aqui"
             Keyboard="Numeric"
-            x:Name="txtRadio"/>
+            x:Name="txtRadio"
+            Background="White"/>
         <Label
            Text="Resultado :"
            Margin="20"
@@ -26,7 +30,7 @@
            x:Name="txtResultado"
            IsReadOnly="True"
            Margin="20"
-            />
+           Background="White"/>
         
         <Button
             Text="CALCULAR"

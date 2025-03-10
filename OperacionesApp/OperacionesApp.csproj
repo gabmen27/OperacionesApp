@@ -68,6 +68,9 @@
 	  <MauiXaml Update="Pages\AreaCuadrado.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\AreaRectangulo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Inicio.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
